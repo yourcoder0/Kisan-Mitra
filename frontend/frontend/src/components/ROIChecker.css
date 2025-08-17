@@ -1,0 +1,104 @@
+.roi-checker {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.roi-checker h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.roi-checker p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.roi-checker label {
+  display: block;
+  margin: 0.5rem 0 0.3rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.roi-checker input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.roi-checker input:focus {
+  border-color: #1abc9c;
+  outline: none;
+}
+
+.roi-checker button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #1abc9c;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.roi-checker button:hover {
+  background: #16a085;
+}
+
+.roi-result {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #f9f9f9;
+  border-left: 5px solid #1abc9c;
+}
+
+.roi-result h3 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.roi-result p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.roi-result strong {
+  color: #1abc9c;
+}
+
+/* Progress bar style */
+.roi-result progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.roi-result progress::-webkit-progress-bar {
+  background: #eee;
+  border-radius: 10px;
+}
+
+.roi-result progress::-webkit-progress-value {
+  background: #1abc9c;
+  border-radius: 10px;
+}
+
+.roi-result progress::-moz-progress-bar {
+  background: #1abc9c;
+  border-radius: 10px;
+}
